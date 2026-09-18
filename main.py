@@ -2,7 +2,7 @@
 import os
 import pandas as pd
 import numpy as np
-import joblib
+
 import streamlit as st
 
 # Set theme configuration
@@ -17,11 +17,6 @@ textColor="#f3d0a4"
 font="sans serif"
 """)
 
-FEATURE_COLUMN = "BMI"
-TARGET_COLUMN = "BloodPressure"
-
-X = pd.read_csv("diabetes.csv")
-model = joblib.load("model.joblib")
 
 # Extract weight (w) and bias (b)
 w = 0.6918389034467243
