@@ -17,6 +17,8 @@ textColor="#f3d0a4"
 font="sans serif"
 """)
 
+FEATURE_COLUMN = "BMI"
+TARGET_COLUMN = "BloodPressure"
 
 # Extract weight (w) and bias (b)
 w = 0.6918389034467243
